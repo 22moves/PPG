@@ -11,29 +11,56 @@
 
 }
 .header_block{
-    height: 10px;
+
+    width: 100%;
     background-color: red;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
+.block{
+display: block;
+width: fit-content;
+
+}
   body{
     font-family: 'Raleway', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Space Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Mono', monospace;
     background-color:  #090c10;
   }
 
   .main_conteiner{
+ 
     display: flex;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 100%; 
+    flex-direction: row-reverse;
+    flex-flow: column;
     justify-content: center;
-    padding: 0;
-    justify-content: center;
-    padding: 0;
+    min-width: 5%
+  
+   
     
+  }
+
+  .item{
+    display: flex;
+    margin-top: 20%;
+  }
+  .main_item{
+    display: flex;
+    justify-content: center;
+    pos
+  
+  }
+  .text-box{
+    margin-top: 40%;
+    padding-left: 10%;
+    padding-bottom: 80%;
+    color: wheat;
+    position:  absolute;
+    width: 40%;
+    
+
   }
 
   .text{
@@ -47,7 +74,7 @@ font-family: 'Space Mono', monospace;
     padding: 2% 20% 2%  20%;
     display: flex;
     justify-content: center;  
-    column-gap: 120px;
+    column-gap:20%;
     align-items: center;
     align-content: center;
     color: white;
@@ -110,24 +137,28 @@ font-family: 'Space Mono', monospace;
   }
 
   header {
+    
     display: flex;
-    flex-flow: row;
+
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+   
     background-color: #01291533;
     width: 100%;
     position: fixed;
     backdrop-filter: blur(10px);
+    
   }
   
 
   footer {
+    height: 50px;
     display: flex;
-    background-color: #ff0707;
+    background-color: #00160b33;
     width: 100%;
     backdrop-filter: blur(10px);
     align-items: flex-end;
+    flex-flow: row-;
   }
   
  
@@ -138,6 +169,7 @@ font-family: 'Space Mono', monospace;
     
   }
   
+
   .nav__links a,
   .cta,
   .overlay__content a {
