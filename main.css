@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono&family=Space+Mono&display=swap');
+
+*{
+
+    box-sizing:content-box;
+    margin: 0;
+    padding: 0;
+    width: ;
+ 
+
+
+}
+.header_block{
+    height: 10px;
+    background-color: red;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+  body{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Space Mono', monospace;
+    background-color:  #090c10;
+  }
+
+  .main_conteiner{
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%; 
+    justify-content: center;
+    padding: 0;
+    justify-content: center;
+    padding: 0;
+    
+  }
+
+  .text{
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -50%);
+  }
+
+  .about{
+    padding: 2% 20% 2%  20%;
+    display: flex;
+    justify-content: center;  
+    column-gap: 120px;
+    align-items: center;
+    align-content: center;
+    color: white;
+  }
+
+  .Roadmap{
+    padding: 15%;
+    display: flex;
+    justify-content: center; 
+    column-gap: 120px;
+
+    color: white; 
+  }
+  h1{
+    color: #b9ffbf;
+    padding-left: 20%;
+    padding-bottom: 10%;
+  }
+
+  h4{
+    color: #b9ffbf;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    
+  }
+  .card_part{
+    
+    max-width: 20%;
+    height: 100%;
+    
+    align-self: center;
+
+  }
+
+  .Partners{
+    display: flex;
+    justify-content: center; 
+    column-gap: 15%;
+    margin-bottom: 30%;
+  }
+
+.tokens{
+    justify-content: center;
+    column-gap: 10%;
+    color: white; 
+}
+.token{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    padding: 0% 20%;
+    margin-bottom: 5%;
+}
+  a{
+    color: white;
+    align-content: center;
+  }
+
+  header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #01291533;
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(10px);
+  }
+  
+
+  footer {
+    display: flex;
+    background-color: #ff0707;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    align-items: flex-end;
+  }
+  
+ 
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(10, 175, 73);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(3, 249, 180, 0.8);
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }
+
+
+.header_block{
+    display: flex;
+    align-items: center;
+}
