@@ -71,10 +71,10 @@ width: fit-content;
   }
 
   .about{
-    padding: 2% 20% 2%  20%;
+    padding: 2% 5% 2%  10%;
     display: flex;
     justify-content: center;  
-    column-gap:20%;
+    column-gap:10%;
     align-items: center;
     align-content: center;
     color: white;
